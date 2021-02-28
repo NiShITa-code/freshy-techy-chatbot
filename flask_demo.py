@@ -9,7 +9,7 @@ import time
 
 user_query = {"greeting": ["hi", "hello","hey","hlw"],
               "bit" : ["tell me something about bit", "what is bit", "bit"],
-              'branches':["tell me about branches in bit", "engineering branches in bit"]
+              'branches':["tell me about branches in bit", "engineering branches in bit"],
               "sports" :["which all sports activities are there", "do we have a basketball", "do we have a badminton"],
               "fee structure" :["what is fee structure", "how to pay fees",  "what is fee structure annually"],
               "placements" : ["what is the highest package", "highest placements in bit", "placements in bit", "bit placements"]
