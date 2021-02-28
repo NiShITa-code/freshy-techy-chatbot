@@ -10,14 +10,24 @@ import time
 user_query = {"greeting": ["hi", "hello","hey","hlw"],
               "bit" : ["tell me something about bit", "what is bit", "bit"],
               'branches':["tell me about branches in bit", "engineering branches in bit"]
-}
+              "sports" :["which all sports activities are there", "do we have a basketball", "do we have a badminton"],
+              "fee structure" :["what is fee structure", "how to pay fees",  "what is fee structure annually"],
+              "placements" : ["what is the highest package", "highest placements in bit", "placements in bit", "bit placements"]
+              }
+             
 
 
 bot_reply = {"greeting":["hi", "hello","hey","hlw"],
-        "bit":[ "Birla institute of Technology","Birla institute of Technology, Mesra", "Birla institute of Technology, Jaipur"],
-        "branches":["CS/ECE/EEE","Computer Science", "ECE"],
-        "default":["Sorry! I didn't understand. Please repeat."]
-        }
+             "bit":[ "Birla institute of Technology","Birla institute of Technology, Mesra", "Birla institute of Technology, Jaipur"],
+             "branches":["CS/ECE/EEE","Computer Science", "ECE"],
+             "sports" :["we have badminton, cricket, basketball, volleyball", "badminton,cricket"],
+             "fee structure" :["2 lacs fee to be payed every semester through check", "2lac fees through check", "2lac is the fees amount"],
+             "placements" :["20 lacs is the highest placement this year", "20 lacs is the highest package"],
+             "default":["Sorry! I didn't understand. Please repeat."]
+             }    
+        
+             
+        
 
 
 def intent_match(user_msg): 
